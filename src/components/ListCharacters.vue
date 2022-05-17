@@ -1,8 +1,7 @@
 <template>
   <section>
     <div class="characters">
-            <h2>Character List</h2>
-        <div class="characters_item" v-for="character in characters" :key="character.id">
+        <div class="characters__item" v-for="character in characters" :key="character.id">
                       
             <CardCharacter :character="character"/>
                      
@@ -36,6 +35,11 @@ export default {
 </script>
 
 <style>
-
+    .characters{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        margin: 3rem 0;
+    }
 
 </style>
