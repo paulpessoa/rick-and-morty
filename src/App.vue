@@ -1,16 +1,16 @@
 <template>
   <div>
-    <LisCharacters/>
+    <ListCharacters/>
   </div>
 </template>
 
 <script>
-import LisCharacters from './components/LisCharacters.vue';
+import ListCharacters from './components/ListCharacters.vue';
 
 export default {
   name: 'App',
   components: {
-    LisCharacters
+    ListCharacters
 }
 }
 </script>
