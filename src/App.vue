@@ -1,16 +1,17 @@
 <template>
   <div>
-  oi
+    <LisCharacters/>
   </div>
 </template>
 
 <script>
+import LisCharacters from './components/LisCharacters.vue';
 
 export default {
   name: 'App',
   components: {
-    
-  }
+    LisCharacters
+}
 }
 </script>
 
