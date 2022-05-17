@@ -1,4 +1,7 @@
-# rick-and-morty
+# Rick and Morty (Search Characters)
+
+[<img src="/src/assets/print-rick-and-morty.png" alt="Image Rick and Morty app">](https://rick-and-morty-gamma-five.vercel.app/)
+
 
 ## Project setup
 ```
