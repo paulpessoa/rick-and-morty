@@ -43,10 +43,10 @@ export default {
         box-shadow: 0 0 10px 1px var(--background-body);
         overflow: hidden;
         cursor: pointer;
-        transition: transform 200s ease-in-out;
+        transition: transform 200ms ease-in-out;
         height: 100%;
         &:hover{
-            transform: scale (1.05);
+            transform: scale(1.05);
             h3{
                 color: var(--text-orange);
             }

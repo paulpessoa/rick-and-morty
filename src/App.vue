@@ -1,8 +1,8 @@
 <template>
   <div class="container">
   <h1>Rick and Morty</h1>
-    <FilterByStatus/>
-    <ListCharacters/>
+    <FilterByStatus />
+    <ListCharacters />
   </div>
 </template>
 
